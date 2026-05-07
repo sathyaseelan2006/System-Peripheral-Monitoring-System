@@ -1,0 +1,53 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Environment and secrets
+.env
+**/.env
+!.env.example
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# Node
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+
+# Android / Gradle builds
+.gradle/
+**/.gradle/
+**/build/
+mobile-app/android/local.properties
+
+# PlatformIO / embedded build artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Local JDK bundle (very large, machine-specific)
+src/oracleJdk-26/
+
+# Logs and crash dumps
+*.log
+hs_err_pid*
+
+# Runtime artifacts
+dist/
+out/
+coverage/
